@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Famous footballers</title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet", type="text/css", media="screen", href="css/main.css" />
+  </head>
+  <body>
+    <form id="new-form">
+
+      <div class="form-item">
+        <label for="name">Footballer name</label>
+        <input type="text" name="name" id="footballer-name" required/>
+      </div
+
+      <div class="form-item">
+        <label for="club">Club</label>
+        <input type="text" name="club" id="club" required/>
+      </div>
+
+      <div class="form-item">
+        <label for="position">Position</label>
+        <input type="text" name="position" id="position" required/>
+      </div>
+
+      <div>
+        <input type="submit" value="save"/>
+      </div>
+    </form>
+
+    <h1>Famous footballers</h1>
+      <button id="delete-all">Delete All</button>
+      <div id="footballers-list"></div>
+
+  </body>
+</html>
